@@ -26,5 +26,5 @@ export type Provider = {
 export type Application = {
   name: string,
   description: ?string,
-  account: Array<string>
+  accountID: string
 }

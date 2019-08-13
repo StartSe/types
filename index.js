@@ -22,3 +22,9 @@ export type ProviderType = 'NATIVE' | 'THIRDY'
 export type Provider = {
   type: ProviderType
 }
+
+export type Application = {
+  name: string,
+  description: ?string,
+  account: Array<string>
+}

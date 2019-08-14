@@ -28,3 +28,7 @@ export type Application = {
   description: ?string,
   accountID: string
 }
+
+export type Account = {
+  id: string
+}

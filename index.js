@@ -30,5 +30,7 @@ export type Application = {
 }
 
 export type Account = {
-  id: string
+  id: string,
+  users: Array<User>,
+  applications: Array<Application>
 }
